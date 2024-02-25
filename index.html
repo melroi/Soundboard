@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,15 +9,18 @@
 <body>
   <h1>Ma Soundboard</h1>
   
-  <div class="sound-button" >
-    <div class="sound-image">
-      <img src="image/zemmour-tousse.png" alt="zemmour tousse">
+  <div class="soundboard">
+    <div class="sound-button">
+      <img src="image1.png" alt="Sound 1">
+      <button class="my-button" onclick="playSound('sound1.mp3')">Sound 1</button>
     </div>
-    <button onclick="playSound('sound/zemmour-tousse.mp3')">zemmour-tousse</button>
+    <div class="sound-button">
+      <img src="image2.png" alt="Sound 2">
+      <button class="my-button" onclick="playSound('sound2.mp3')">Sound 2</button>
+    </div>
+    <!-- Ajoutez plus de boutons au besoin -->
   </div>
-  
-  <!-- Ajoutez plus de boutons au besoin -->
-  
+
   <script src="script.js"></script>
 </body>
 </html>
