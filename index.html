@@ -1,1 +1,27 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ma Soundboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Ma Soundboard</h1>
+  
+  <div class="sound-button" onclick="toggleFavorite('zemmour-tousse.mp3')">
+    <div class="sound-image">
+      <img src="zemmour-tousse.png" alt="zemmour tousse">
+      <canvas class="sound-wave" id="sound-wave"></canvas>
+    </div>
+    <button onclick="playSound('zemmour-tousse.mp3')">zemmour-tousse</button>
+    <input type="checkbox" id="favorite-sound1">
+    <label for="favorite-sound1">Favori</label>
+  </div>
+  
+  <!-- Ajoutez plus de boutons au besoin -->
+  
+  <script src="script.js"></script>
+</body>
+</html>
